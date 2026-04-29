@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio Risky Putra Adielia - UI/UX Designer & Frontend Developer. Menampilkan keahlian, proyek, dan informasi kontak."
+    />
+    <title>UTS RISKY</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <a href="#tentang" class="skip-link">Langsung ke konten</a>
+
+    <!-- HEADER -->
+    <header class="navbar">
+      <div class="nav-container">
+        <!-- KIRI -->
+        <h1 class="logo">Tech Conference 2026</h1>
+
+        <!-- KANAN -->
+        <nav aria-label="Navigasi utama">
+          <ul class="nav-menu">
+            <li><a href="#main">Beranda</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#form">Pendaftaran</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO  -->
+    <section class="hero">
+      <img src="bagus.jpg" alt="bagusbagus">
+      <h2>Selamat Datang Tech Conference 2026</h2>
+      <p>Architecting the New Era: Tech Conference 2026</p>
+    </section>
+
+    <!-- MAIN -->
+    <main id="main-content">
+      <!-- Beranda -->
+      <section id="main">
+        <h2>Beranda</h2>
+        <article>
+          <p>
+            Tech Conference adalah acara yang mempertemukan para profesional,
+            inovator, dan pemimpin industri untuk mengeksplorasi tren terbaru,
+            berbagi wawasan, dan membangun koneksi yang berharga. 
+          </p>
+        </article>
+      </section>
+
+      <section id="tentang">
+        <h2>Tentang</h2>
+        <article>
+          <p>
+            Tech Conference adalah acara yang mempertemukan para profesional,
+            inovator, dan pemimpin industri untuk mengeksplorasi tren terbaru,
+            berbagi wawasan, dan membangun koneksi yang berharga. Acara ini
+            berfungsi sebagai pusat pembelajaran di mana peserta dapat
+            memperoleh pengetahuan baru untuk diterapkan dalam bisnis atau
+            berbagi cara inovatif dalam menggunakan teknologi.
+          </p>
+        </article>
+      </section>
+
+      <!-- Form Daftar -->
+      <section id="form">
+        <h2>Form Pendaftaran</h2>
+
+        <form id="formPendaftaran" aria-label="Form Pendaftaran">
+          <fieldset>
+            <legend>Isi Data Pendaftaran</legend>
+
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="hp">No HP:</label>
+            <input type="tel" id="hp" name="hp" required />
+
+            <label for="kategori">Kategori:</label>
+            <select id="kategori" name="kategori" required>
+              <option value="">-- Pilih --</option>
+              <option value="web-development">Web Development</option>
+              <option value="desain">Desain</option>
+              <option value="konsultasi">Konsultasi</option>
+            </select>
+
+            <button type="submit">Kirim</button>
+          </fieldset>
+        </form>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2026 UTS Praktikum Risky</p>
+    </footer>
+  </body>
+</html>
